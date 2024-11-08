@@ -1,0 +1,25 @@
+
+<div class="month">
+    <h1>Dashboard</h1>
+
+        <mat-form-field >
+            <mat-label>Meses</mat-label>
+            <mat-select>
+              @for (month of months; track month) {
+                <mat-option [value]="month.value">{{month.viewValue}}</mat-option>
+              }
+            </mat-select>
+          </mat-form-field>
+</div>
+<section class="gridContainer">
+    @for (box of list; track box) {
+      <section class="grid-tile">
+        <div class="grid-title">
+            <span>{{box.text}}</span>
+            <span>{{box.icon}} </span>       
+        </div>
+
+        <span class="number" >{{box.sig}} {{box.valor}} </span>
+      </section>
+    }
+</section>

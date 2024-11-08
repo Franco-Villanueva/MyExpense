@@ -17,6 +17,12 @@
     --color-surface-dark: #1E1E1E; /* Gris oscuro para superficies en modo oscuro */
     --color-text-light: #424242; /* Gris oscuro para texto en modo claro */
     --color-text-dark: #E0E0E0; /* Gris claro para texto en modo oscuro */
+
+    --font-size-small: 12px;
+    --font-size-medium: 16px;
+    --font-size-large: 20px;
+    --font-size-xlarge: 24px;
+    --font-size-xxlarge: 35px;
 }
 
 *,
