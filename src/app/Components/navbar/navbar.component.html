@@ -1,10 +1,12 @@
-<nav>
-    <picture>
-        <source srcset="logo-desktop.svg" media="(min-width: 768px)">
-        <source srcset="logo-mobile.svg" media="(max-width: 767px)">
-        <img src="logo-predeterminado.png" alt="Logo de la empresa">
-    </picture>
-
-    <button>log in</button>
-    <app-toggle/>
+<nav class="mainContainer">
+    <div class="navbar">
+        <figure class="figLogo">
+            <img class="imgLogo" src="../../../assets/logo.png" alt="Logo de la empresa">
+            <figcaption>MyExpense</figcaption>
+        </figure>
+    </div>
+    <div class="buttons">
+        <app-log-in />
+        <app-toggle></app-toggle>
+    </div>
 </nav>
